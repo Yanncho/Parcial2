@@ -1,0 +1,32 @@
+
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="h4">#</th>
+          <th class="h4">Nombre</th>
+          <th class="h4">Pais</th>
+          <th class="h4">Genero</th>
+          <th class="h4">Fundacion</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr *ngFor="let c of bandas">
+  <td>
+    <dd>{{c.name}}</dd>
+  </td>
+  <td>
+    <dd>{{c.country}}</dd>
+  </td>
+  <td>
+    <dd>{{c.genre}}</dd>
+  </td>
+  <td>
+    <dd>{{c.foundation_year}}</dd>
+  </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>

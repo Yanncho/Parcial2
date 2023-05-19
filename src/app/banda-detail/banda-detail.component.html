@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ bandaDetail.name }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ bandaDetail.image }}"
+          alt="{{ bandaDetail.name }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Pais</dt>
+        <dd>{{ bandaDetail.country }}</dd>
+        <hr />
+        <dt>Fundacion</dt>
+        <dd>{{ bandaDetail.foundation_year }}</dd>
+        <hr />
+        <dt>Descripcion</dt>
+        <dd>{{ bandaDetail.description }}</dd>
+        <dt>Genero</dt>
+        <dd>{{ bandaDetail.genre }}</dd>
+        <hr />
+        <dt class="bold">Descripcion</dt>
+        <dd>{{ bandaDetail.description }}</dd>
+      </dl>
+    </div>
+  </div>
+ </div>
+
